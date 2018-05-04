@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <title>WebAgency</title>
+
+    <meta name="description" content="WebAgency votre agence de communication web. Situés à Paris, nous réalisons tous vos projets web. " />
+    <!-- Open Graph -->
+    <meta property="og:title" content="WebAgency" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.webagency.com" />
+    <meta property="og:image" content="ressources/images/logo.png" />
+</head>
+
+<body>
+<header>
+    <div id="logo">
+        <img src="images/logo.png" alt="WebAgency Logo"/>
+    </div>
+    <!-- Menu principal -->
+    <nav>
+        <ul id="main-menu">
+            <li><a href="#home" class="current">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="menu-cursor"></div>
+    </nav>
+</header>
+<div id="page-content">
+    <div id="home"></div>
+    <section id="main-slider">
+        <!-- Images fond slider-->
+        <div id="picture1">
+            <div id="picture2">
+                <div class="pictures-container">
+                    <div class="pictures-content">
+                        <div class="item" id="pic1">
+                        </div>
+                        <div class="item" id="pic2">
+                        </div>
+                    </div>
+                    <div class="slider-cursor"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Contenu slider -->
+        <div id="main-slider-content">
+            <h1 id="main-slider-title"><span id="main-slider-company">webagency</span> : l'agence de tous vos
+                projets !
+            </h1>
+            <p id="main-slider-text">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+            <button id="main-slider-button" onclick="window.location = '#services'">Plus d'infos</button>
+        </div>
+        <!-- Navigation slider -->
+        <div id="main-slider-prev" class="slider-nav">
+            <a href="#picture1"></a>
+        </div>
+        <div id="main-slider-next" class="slider-nav">
+            <a href="#picture2"></a></div>
+        <!-- Pied slider -->
+        <div id="main-slider-footer">
+        </div>
+    </section>
+    <!-- Section services -->
+    <div id="services"></div>
+    <section class="section-container">
+        <h2 class="section-title">nos services</h2>
+        <div class="title-separator">
+            <hr>
+            <div class="dot-separator"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="section-description">
+            <p>Afin de satisfaire vos besoins, nous mettons l'accent sur plusieurs points essentiels à la réalisation de
+                votre projet. Ainsi votre projet est à la fois personnalisé et optimisé.</p>
+        </div>
+        <div id="services-picture">
+            <img src="images/main-feature.png" alt="service illustration"/>
+        </div>
+        <!-- Liste des services -->
+        <div id="services-list">
+            <ul>
+                <li>
+                    <div class="list-style">
+                        <i class="fas fa-chart-line icon"></i>
+                        <i class="fas fa-circle dot-separator"></i>
+                    </div>
+                    <p>
+                        <span class="service-name">UX design</span>
+                        L'<b>expérience utilisateur</b> est la pierre angulaire d'un projet Web. Notre UX Designer vous
+                        proposera la solution la plus adéquate afin de garantir à vos visiteurs l'expérience la plus
+                        intuitive et complète possible.
+                    </p>
+                </li>
+                <li>
+                    <div class="list-style">
+                        <i class="fas fa-cubes icon"></i>
+                        <i class="fas fa-circle dot-separator"></i>
+                    </div>
+                    <p>
+                        <span class="service-name">UI design</span>
+                        La qualité de l'éxperience de vos visiteurs dépend également du confort visuel proposé. Nous
+                        nous chargeons de concevoir les <b>maquettes graphiques</b> qui respecteront votre identité visuelle.
+                    </p>
+                </li>
+                <li>
+                    <div class="list-style">
+                        <i class="fas fa-chart-pie icon"></i>
+
+                        <i class="fas fa-circle dot-separator"></i>
+                    </div>
+                    <p>
+                        <span class="service-name">SEO</span>
+                        Quoi de plus frustrant que de ne recevoir aucune visite sur son site web ? Nos experts en
+                        <b>référencement</b> optimiseront le contenu de votre site pour lui permettre d'être classé parmi les
+                        premiers résultats des moteurs de recherche.
+                    </p>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <!-- Section projets -->
+    <div id="projects"></div>
+    <section class="section-container background-grey">
+        <h2 class="section-title">nos projets</h2>
+        <div class="title-separator">
+            <hr>
+            <div class="dot-separator"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="section-description">
+            <p>Vous hésitez ? Voici certaines de nos réalisations pour vous aider à de vous mettre en appétit.</p>
+        </div>
+        <ul class="tab-navigation">
+            <li class="active-tab">All Works</li>
+            <li>creative</li>
+            <li>corporate</li>
+            <li>portfolio</li>
+        </ul>
+        <!-- Liste projets -->
+        <div id="portfolio">
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Opticiens du net</h4>
+                    <p>Boutique en ligne de lunettes</p>
+                </div>
+                <img src="images/portfolio/01.jpg" alt="Logo Opticiens du net">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Rabbit Gifts</h4>
+                    <p>Boutique en ligne idées cadeaux</p>
+                </div>
+
+                <img src="images/portfolio/02.jpg" alt="Logo Rabbit gifts">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Pompadour's Barbershop</h4>
+                    <p>Site vitrine d'un salon de coiffure</p>
+                </div>
+
+                <img src="images/portfolio/03.jpg" alt="Logo Pompadours">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>MB Architecture</h4>
+                    <p>Portfolio d'architecte</p>
+                </div>
+
+                <img src="images/portfolio/04.jpg" alt="Logo MB Architecture">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Shopping Area</h4>
+                    <p>Site d'informations d'une galerie marchande</p>
+                </div>
+
+                <img src="images/portfolio/05.jpg" alt="Logo Shopping Area">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Around the world</h4>
+                    <p>Agence de voyage en ligne</p>
+                </div>
+
+                <img src="images/portfolio/06.jpg" alt="Logo Around the world">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Graph Creator</h4>
+                    <p>Portfolio d'un graphiste</p>
+                </div>
+
+                <img src="images/portfolio/07.jpg" alt="Logo Graph Creator">
+            </div>
+            <div class="portfolio-element">
+                <div class="portfolio-element-content">
+                    <i class="fas fa-eye icon small-icon"></i>
+                    <h4>Cabinet H&H&M</h4>
+                    <p>Site d'un cabinet d'avocats</p>
+                </div>
+
+                <img src="images/portfolio/08.jpg" alt="Logo cabinet H&H&M">
+            </div>
+        </div>
+
+    </section>
+    <!-- Section contact -->
+    <div id="contact"></div>
+    <section class="section-container">
+        <h2 class="section-title">contact</h2>
+        <div class="title-separator">
+            <hr>
+            <div class="dot-separator"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="section-description">
+            <p>Vous avez un projet ? contactez-nous grâce au formulaire ou bien passez nous voir en
+                agence afin d'en discuter ensemble.</p>
+        </div>
+        <div id="map-container">
+            <iframe
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC4_uOwGVtnGwYu8Z52PeQQ8HsP4RKtNsw
+    &q=25+Rue+Hauteville+75010+Paris" allowfullscreen>
+            </iframe>
+            <!-- Formulaire -->
+            <div id="contact-form">
+                <h3>Formulaire de contact</h3>
+                <p>
+                    <b>WebAgency SAS</b>
+                    25 Rue d'Hauteville 75010 Paris
+                    <span>Tel :</span> 01 02 03 04 05
+                </p>
+                <form action="#">
+                    <input type="text" name="name" placeholder="Nom" id="contact-name"/>
+                    <input type="email" name="email" placeholder="Email" id="contact-email"/>
+                    <input type="text" name="subject" placeholder="Sujet" id="contact-subject"/>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+
+                    <input type="submit" name="submit" value="Envoyer message" id="contact-submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+</div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
