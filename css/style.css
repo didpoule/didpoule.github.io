@@ -189,7 +189,9 @@ header {
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
-
+#home {
+    height: 100px;
+}
 /*Animation curseur*/
 #picture2:target .slider-cursor, #picture1:target .slider-cursor {
     -webkit-transition: all 1s ease;
@@ -288,6 +290,8 @@ header {
     font-family: 'roboto-medium';
     font-size: 1.13em;
     color: white;
+
+    cursor: pointer;
 }
 
 .slider-nav {
@@ -306,6 +310,8 @@ header {
 
     border: 1px rgba(0, 0, 0, 0) solid;
     border-radius: 50px;
+
+    cursor: pointer;
 }
 
 #main-slider a {
@@ -498,12 +504,6 @@ header {
     width: 67px;
 }
 
-/*.list-style .dot-separator {
-    right: -2px;
-    top: 50%;
-    transform: translateY(-50%);
-}*/
-
 .list-style .dot-separator {
     position: relative;
     right: -52px;
@@ -528,6 +528,8 @@ header {
 
     border-radius: 5px;
     background-color: #e5e5e5;
+
+    cursor: pointer;
 
 }
 
@@ -589,6 +591,8 @@ li:nth-last-child(1).active-tab {
     height: 175px;
 
     overflow: hidden;
+
+    cursor: pointer;
 }
 
 .portfolio-element-content {
@@ -747,4 +751,6 @@ li:nth-last-child(1).active-tab {
     -webkit-box-shadow: inset 0px -3px 0px 0px rgba(70, 140, 173, 1);
     -moz-box-shadow: inset 0px -3px 0px 0px rgba(70, 140, 173, 1);
     box-shadow: inset 0px -3px 0px 0px rgba(70, 140, 173, 1);
+
+    cursor: pointer;
 }
