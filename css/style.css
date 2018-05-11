@@ -547,6 +547,8 @@ header {
     color: white;
     overflow: visible;
 
+    transition: all 1s ease;
+
 }
 
 .active-tab::after {
