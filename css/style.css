@@ -617,7 +617,7 @@ li:nth-last-child(1).active-tab {
     transition: all 1s ease;
 }
 
-.portfolio-element-content:hover {
+.portfolio-element:hover .portfolio-element-content {
     opacity: 1;
 }
 
